@@ -1,0 +1,23 @@
+starting at... 2021-04-16 18:00:02.269876
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Zach']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452944
+Cocke Bot Successful for User: Zach
+ Confirmation Email Sending...
+----------------------------
+end task... 2021-04-16 18:00:17.043088
+starting at... 2021-04-16 20:00:01.957175
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453117
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task... 2021-04-16 20:00:15.980622
+----------------------------
+starting at... 2021-04-17 20:00:01.672290
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453118
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task... 2021-04-17 20:00:18.156368

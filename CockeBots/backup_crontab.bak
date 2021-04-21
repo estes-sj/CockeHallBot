@@ -1,0 +1,64 @@
+# Edit this file to introduce tasks to be run by cron.
+# 
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+# 
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').
+# 
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+# 
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+# 
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+# 
+# For more information see the manual pages of crontab(5) and cron(8)
+# 
+# m h  dom mon dow   command
+
+#crontab -l > backup_date.text to backup file
+#crontab crontab.bak to import from backup
+
+#Update Offset at Start of New Week
+0 0 * * 0 DISPLAY=:0 python /home/pi/Documents/CockeBots/CHOffset.py >> /home/pi/Documents/CockeBots/log.log 2>&1
+
+#Sam W1300
+0 13 * * 0 DISPLAY=:0 python /home/pi/Documents/CockeBots/CockeHallReservationPi.py Sam >> /home/pi/Documents/CockeBots/log.log 2>&1
+
+#Sam F1300
+0 13 * * 2 DISPLAY=:0 python /home/pi/Documents/CockeBots/CockeHallReservationPi.py Sam >> /home/pi/Documents/CockeBots/log.log 2>&1
+
+#Sam ST1300
+0 13 * * 3 DISPLAY=:0 python /home/pi/Documents/CockeBots/CockeHallReservationPi.py Sam >> /home/pi/Documents/CockeBots/log.log 2>&1
+
+#Sam M1300
+0 13 * * 5 DISPLAY=:0 python /home/pi/Documents/CockeBots/CockeHallReservationPi.py Sam >> /home/pi/Documents/CockeBots/log.log 2>&1
+
+#Riley W2000
+0 20 * * 0 DISPLAY=:0 python /home/pi/Documents/CockeBots/CockeHallReservationPi.py Riley >> /home/pi/Documents/CockeBots/log.log 2>&1
+
+#Riley TR2000
+0 20 * * 1 DISPLAY=:0 python /home/pi/Documents/CockeBots/CockeHallReservationPi.py Riley >> /home/pi/Documents/CockeBots/log.log 2>&1
+
+#Riley F2000
+0 20 * * 2 DISPLAY=:0 python /home/pi/Documents/CockeBots/CockeHallReservationPi.py Riley >> /home/pi/Documents/CockeBots/log.log 2>&1
+
+#Riley M2000
+0 20 * * 5 DISPLAY=:0 python /home/pi/Documents/CockeBots/CockeHallReservationPi.py Riley >> /home/pi/Documents/CockeBots/log.log 2>&1
+
+#Riley T2000
+0 20 * * 6 DISPLAY=:0 python /home/pi/Documents/CockeBots/CockeHallReservationPi.py Riley >> /home/pi/Documents/CockeBots/log.log 2>&1
+
+#Zach F1800
+0 18 * * 2 DISPLAY=:0 python /home/pi/Documents/CockeBots/CockeHallReservationPi.py Zach >> /home/pi/Documents/CockeBots/log.log 2>&1
+
+#Zach M1800
+0 18 * * 5 DISPLAY=:0 python /home/pi/Documents/CockeBots/CockeHallReservationPi.py Zach >> /home/pi/Documents/CockeBots/log.log 2>&1
+
+
