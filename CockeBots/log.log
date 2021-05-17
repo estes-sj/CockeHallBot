@@ -137,3 +137,351 @@ https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452007
 Cocke Bot Successful for User: Sam
  Confirmation Email Sending...
 ('end task...', datetime.datetime(2021, 4, 21, 13, 2, 13, 325122))
+----------------------------
+starting at...2021-04-23 13:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Sam']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452517
+Cocke Bot Successful for User: Sam
+ Confirmation Email Sending...
+end task...2021-04-23 13:02:12
+----------------------------
+starting at...2021-04-23 18:00:04
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Zach']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452949
+Cocke Bot Successful for User: Zach
+ Confirmation Email Sending...
+end task...2021-04-23 18:02:10
+----------------------------
+starting at...2021-04-23 20:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453122
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-04-23 20:02:09
+----------------------------
+starting at...2021-04-24 20:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453123
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-04-24 20:02:14
+----------------------------
+starting at...2021-04-25 00:00:02
+Increasing Offset Counter...
+Current Offset = 1
+New offset = 2
+ending task...2021-04-25 00:00:02
+----------------------------
+starting at...2021-04-25 13:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Sam']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452519
+Cocke Bot Successful for User: Sam
+ Confirmation Email Sending...
+end task...2021-04-25 13:02:12
+----------------------------
+starting at...2021-04-25 20:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453124
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-04-25 20:02:08
+----------------------------
+starting at...2021-04-26 20:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453125
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-04-26 20:02:12
+----------------------------
+starting at...2021-04-27 13:00:04
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Sam']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452521
+Cocke Bot Successful for User: Sam
+ Confirmation Email Sending...
+end task...2021-04-27 13:02:11
+----------------------------
+starting at...2021-04-27 18:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Zach']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452953
+Cocke Bot Successful for User: Zach
+ Confirmation Email Sending...
+end task...2021-04-27 18:02:08
+----------------------------
+starting at...2021-04-27 20:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453126
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-04-27 20:02:03
+----------------------------
+starting at...2021-04-28 13:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Sam']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452009
+Cocke Bot Successful for User: Sam
+ Confirmation Email Sending...
+end task...2021-04-28 13:02:13
+----------------------------
+starting at...2021-04-30 13:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Sam']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452522
+Cocke Bot Successful for User: Sam
+ Confirmation Email Sending...
+end task...2021-04-30 13:02:11
+----------------------------
+starting at...2021-04-30 18:00:04
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Zach']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452954
+Cocke Bot Successful for User: Zach
+ Confirmation Email Sending...
+end task...2021-04-30 18:02:12
+----------------------------
+starting at...2021-04-30 20:00:04
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453127
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-04-30 20:02:11
+----------------------------
+starting at...2021-05-01 20:00:04
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453128
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-05-01 20:02:07
+----------------------------
+starting at...2021-05-02 00:00:02
+Increasing Offset Counter...
+Current Offset = 2
+New offset = 3
+ending task...2021-05-02 00:00:02
+----------------------------
+starting at...2021-05-02 13:00:04
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Sam']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452524
+Cocke Bot Successful for User: Sam
+ Confirmation Email Sending...
+end task...2021-05-02 13:02:12
+----------------------------
+starting at...2021-05-02 20:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453129
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-05-02 20:02:08
+----------------------------
+starting at...2021-05-03 20:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453130
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-05-03 20:02:12
+----------------------------
+starting at...2021-05-04 13:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Sam']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452526
+Cocke Bot Successful for User: Sam
+ Confirmation Email Sending...
+end task...2021-05-04 13:02:10
+----------------------------
+starting at...2021-05-04 18:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Zach']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452958
+Cocke Bot Successful for User: Zach
+ Confirmation Email Sending...
+end task...2021-05-04 18:02:09
+----------------------------
+starting at...2021-05-04 20:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453131
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-05-04 20:02:06
+----------------------------
+starting at...2021-05-05 13:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Sam']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452011
+Cocke Bot Successful for User: Sam
+ Confirmation Email Sending...
+end task...2021-05-05 13:02:12
+----------------------------
+starting at...2021-05-07 13:00:04
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Sam']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452527
+Cocke Bot Successful for User: Sam
+ Confirmation Email Sending...
+end task...2021-05-07 13:02:13
+----------------------------
+starting at...2021-05-07 18:00:04
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Zach']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452959
+Cocke Bot Successful for User: Zach
+ Confirmation Email Sending...
+end task...2021-05-07 18:02:12
+----------------------------
+starting at...2021-05-07 20:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453132
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-05-07 20:02:08
+----------------------------
+starting at...2021-05-08 20:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453133
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-05-08 20:02:09
+----------------------------
+starting at...2021-05-09 00:00:02
+Increasing Offset Counter...
+Current Offset = 3
+New offset = 4
+ending task...2021-05-09 00:00:02
+----------------------------
+starting at...2021-05-09 13:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Sam']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452529
+Cocke Bot Successful for User: Sam
+ Confirmation Email Sending...
+end task...2021-05-09 13:02:13
+----------------------------
+starting at...2021-05-09 20:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453134
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-05-09 20:02:13
+----------------------------
+starting at...2021-05-10 20:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453135
+Cocke Bot Successful for User: Riley
+ Confirmation Email Sending...
+end task...2021-05-10 20:02:13
+----------------------------
+starting at...2021-05-11 13:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Sam']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452531
+Traceback (most recent call last):
+  File "/home/pi/Documents/CockeBots/CockeHallReservationPi.py", line 193, in <module>
+    main()
+  File "/home/pi/Documents/CockeBots/CockeHallReservationPi.py", line 62, in main
+    element = driver.find_element_by_link_text("Sign Up").click()
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"Sign Up"}
+  (Session info: chrome=86.0.4240.197)
+
+----------------------------
+starting at...2021-05-11 18:00:04
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Zach']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452963
+Traceback (most recent call last):
+  File "/home/pi/Documents/CockeBots/CockeHallReservationPi.py", line 193, in <module>
+    main()
+  File "/home/pi/Documents/CockeBots/CockeHallReservationPi.py", line 62, in main
+    element = driver.find_element_by_link_text("Sign Up").click()
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"Sign Up"}
+  (Session info: chrome=86.0.4240.197)
+
+----------------------------
+starting at...2021-05-11 20:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Riley']
+Traceback (most recent call last):
+  File "/home/pi/Documents/CockeBots/CockeHallReservationPi.py", line 193, in <module>
+    main()
+  File "/home/pi/Documents/CockeBots/CockeHallReservationPi.py", line 43, in main
+    driver = webdriver.Chrome(PATH)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/chrome/webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+
+----------------------------
+starting at...2021-05-12 13:00:04
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Sam']
+Traceback (most recent call last):
+  File "/home/pi/Documents/CockeBots/CockeHallReservationPi.py", line 193, in <module>
+    main()
+  File "/home/pi/Documents/CockeBots/CockeHallReservationPi.py", line 43, in main
+    driver = webdriver.Chrome(PATH)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/chrome/webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/pi/.local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+
+----------------------------
+starting at...2021-05-14 13:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Sam']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452532
+No Slot Established!
+Terminating Program...
+----------------------------
+starting at...2021-05-14 18:00:03
+Active User:
+['/home/pi/Documents/CockeBots/CockeHallReservationPi.py', 'Zach']
+https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452964
+No Slot Established!
+Terminating Program...

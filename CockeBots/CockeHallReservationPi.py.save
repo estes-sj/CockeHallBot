@@ -1,0 +1,196 @@
+'''
+    File name: CockeHallReservation.py
+    File Version: 1.3
+    Author: Samuel Estes
+    Date created: 3/10/2021
+    Date last modified: 4/14/2021
+    Python Version: 2020.3.4
+
+    Automatic Sign-Up for Cocke Hall Reservation System.
+    New Features: Full automated using Raspberry Pi and crontab
+                  Multi-User support
+
+'''
+import sys
+
+from datetime import datetime
+from selenium import webdriver
+
+print("----------------------------")
+# datetime object containing current date and time
+now = datetime.now()
+print("starting at...", now.strftime("%Y-%m-%d %H:%M:%S"))
+
+# Automated User Detection
+print("Active User:")
+print(sys.argv)
+user = sys.argv[1]
+
+
+def main():
+    
+    # Offset = 0 on Sunday, 4/11/2021
+    # Add 1 for each week this program is used since offset_value = 0 every Sunday between 0000-1300
+    offset_file = open("/home/pi/Documents/CockeBots/offsetcounter.txt", "r+")
+
+    offset_value = offset_file.read()
+    offset_value = int(float(offset_value))
+    offset_file.close()
+
+    # Location of Google Chrome Driver
+    PATH = "/usr/lib/chromium-browser/chromedriver"
+
+    driver = webdriver.Chrome(PATH)
+    driver.maximize_window()
+
+    # Continue running only if user has an assigned slot
+    try:
+        web_site = event_id(user_day_detection(user), offset_value)
+        login_site = web_site[:8] + login_credentials() + web_site[8:]
+        driver.get(login_site)  # Load page with login credentials
+    except BaseException:
+        print("No Slot Established!\nTerminating Program...")
+        sys.exit()
+
+    main_page = driver.current_window_handle
+
+    # Allow Page to Load
+    driver.implicitly_wait(5)  # Seconds
+
+    driver.switch_to.frame("trumba.spud.0.iframe")
+
+    element = driver.find_element_by_link_text("Sign Up").click()
+
+    # Changing the handles to access login page
+    for handle in driver.window_handles:
+        if handle != main_page:
+            signup_page = handle
+
+    # Change the control to signup page
+    driver.switch_to.window(signup_page)
+
+    # Get Name and Email based on User detection
+    name = name_detection(user)
+    email = email_detection(user)
+
+    # Name
+    driver.find_element_by_name('eaa$TextboxName').send_keys(name)
+    # Email
+    driver.find_element_by_name('eaa$TextboxEmail').send_keys(email)
+    # Click the Confirm Button
+    driver.find_element_by_id("eaa_ButtonOK").click()
+
+    # Add Reminder
+    # driver.find_element_by_id("eaa_btnAtmc").click()
+    # driver.implicitly_wait(3)
+
+    driver.quit()
+
+    print("Cocke Bot Successful for User: " + user + "\n Confirmation Email Sending...")
+    now = datetime.now()
+    print("end task...", now)
+    
+def user_day_detection(user):
+    # If-Else Based on Day of Week +2 for Sat/Sun, +5 for Mon-Fri, starts at position 70
+    my_date = datetime.today().strftime('%A')
+    if my_date == 'Sunday':
+        # Wednesday Slot
+        if user == "Sam":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452509"
+        elif user == "Riley":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453114"
+        elif user == "Ethan":
+            pass
+    elif my_date == 'Monday': 
+        # Thursday Slot
+        if user == "Sam":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452500"
+        elif user == "Riley":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453115"
+        elif user == "Ethan":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452500"
+    elif my_date == 'Tuesday':
+        # Friday Slot
+        if user == "Sam":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452511"
+        elif user == "Riley":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453116"
+        elif user == "Ethan":
+            pass
+        elif user == "Zach":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452943"
+    elif my_date == 'Wednesday':
+        # Saturday Slot +2
+        if user == "Sam":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452005"
+        elif user == "Riley":
+            pass
+        elif user == "Ethan":
+            pass
+    elif my_date == 'Thursday':
+        # Sunday Slot
+        if user == "Sam":
+            pass
+        elif user == "Riley":
+            pass
+        elif user == "Ethan":
+            pass
+    elif my_date == 'Friday':
+        # Monday Slot +5
+        if user == "Sam":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452512"
+        elif user == "Riley":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453117"
+        elif user == "Ethan":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452497"
+        elif user == "Zach":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150452944"
+    elif my_date == 'Saturday':
+        # Tuesday Slot
+        if user == "Sam":
+            pass
+        elif user == "Riley":
+            return "https://www3.vmi.edu/cocke-hall/?trumbaEmbed=view%3Devent%26eventid%3D150453118"
+        elif user == "Ethan":
+            pass
+
+def event_id(link, offset):
+    id_number = int(link[70:])
+    my_date = datetime.today().strftime('%A')
+    # Offset * 2 if Sat/Sun slot, *5 for Mon-Fri
+    if my_date == "Wednesday" or my_date == "Thursday":
+        offset *= 2 
+    else:
+        offset *= 5 
+    id_number += offset
+    print(link[:70] + str(id_number))
+    return link[:70] + str(id_number)
+    
+def name_detection(user):
+    if user == "Sam":
+        return "Estes, Samuel"
+    elif user == "Riley":
+        return "Dodge, Riley"
+    elif user == "Ethan":
+        return "Gilmore, Ethan"
+    elif user == "Zach":
+        return "Branner, Zach"
+
+def email_detection(user):
+    if user == "Sam":
+        return "estessj22@mail.vmi.edu"
+    elif user == "Riley":
+        return "dodgerj2213@mail.vmi.edu"
+    elif user == "Ethan":
+        return "gilmoreea22@mail.vmi.edu"
+    elif user == "Zach":
+        return "brannerzt22@mail.vmi.edu"
+
+def login_credentials():
+    return "estessj22:SaEs50567Z94C2!@"
+
+if __name__ == "__main__":
+    main()
+
+
+
