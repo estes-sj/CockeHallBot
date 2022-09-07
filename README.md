@@ -1,20 +1,22 @@
-# CockeBot
-Automatic RSVP for Cocke Hall weight room. Multi-user support with automatic scripting through crontab. Requires implementation of slot when first assigned. Running on Raspberry Pi Zero
+# Cocke Hall Reservation Bot
+Automatic RSVP for Cocke Hall weight room. Multi-user support with automatic scripting through crontab. Requires implementation of slot when first assigned. Running on Raspberry Pi Zero and utilizing Selenium (Python)
 
-'''
-    ***VERSION HISTORY***
+
+### _Version History_
     1.0 - Automatic Sign-up for a set user and specific gym slot
+    
     1.1 - Allows input to detect which user to run script for. 
           Supports multiple manually inputted gym slots.
+          
     1.11- Fixed command prompt input issues
+    
     1.2 - Support for Raspberry Pi (Rasbian OS)
+    
     1.3 - Offset value to automatically adjust event id's
-	- Offset value determined through CHOffset.py
-	- Fully automatic
-'''
+    	- Offset value determined through CHOffset.py
+    	- Fully automatic
 
-'''
-    ***Windows Task Scheduler Settings***
+### _Windows Task Scheduler Settings_
     - Ensure running from user's account
     - Run with highest privilege 
     - Allow if user is logged in or not
@@ -23,34 +25,3 @@ Automatic RSVP for Cocke Hall weight room. Multi-user support with automatic scr
     - Trigger with delay 0-2 seconds
     - All Batch Files located in: C:\Users\Samuel\Documents\CockeBots
     - Task Scheduler Script Files located in: C:\Windows\System32\Tasks
-'''
-
-''' 
-    ***GOALS***
-    - Add reminder system
-    - Clean up multi-user support (utilize arrays/vectors)
-'''
-
-'''
-    ***SLOT TRACKER***
-    
-    Sam:
-        1300 Monday
-        1300 Wednesday
-        1300 Friday
-        1300 Saturday
-    Ethan:
-        1300 Monday
-    Riley:
-        2000 Monday
-        2000 Tuesday
-        2000 Wednesday
-        2000 Thursday
-        2000 Friday
-    Zach: 
-        1800 Monday
-        1800 Friday
-    
-'''
-
-
