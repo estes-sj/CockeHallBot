@@ -53,27 +53,4 @@ Automatic RSVP for Cocke Hall weight room. Multi-user support with automatic scr
     
 '''
 
-'''
-    ***NOTES***
-    driver.page.source
-    driver.get("https://USERNAME:PASSWORD@www3.vmi.edu/cocke-hall/")
-    driver.close -> for tab
-    driver.quit() -> for browser
-    driver.title -> title of page
-    sudo crontab -e -> edit auto scripts on Pi
-    crontab -l > backup_date.text to backup file
-    crontab crontab.bak to import from backup
-
-    git init #new directory
-    git add <folder1> <folder2> <etc.>
-    git commit -m "Your message about the commit"
-    git remote add origin https://github.com/primetime728/CockeBot.git
-    git push -u origin master
-    git push origin master
-
-    cd Documents
-    git add CockeBots
-    git commit -m "Latest Update"
-    git push orgin master
-'''
 
